@@ -1,0 +1,151 @@
+{
+    "days": [
+        [
+            {
+                "day": "Sunday",
+                "lec": "0"
+            }
+        ],
+        [
+            {
+                "day": "Monday",
+                "lec": "5"
+            },
+            {
+                "name": "DSA",
+                "time": "10:00",
+                "link": ""
+            },
+            {
+                "name": "CSO",
+                "time": "11:00",
+                "link": ""
+            },
+            {
+                "name": "NMPT",
+                "time": "14:00",
+                "link": ""
+            },
+            {
+                "name": "MPI Lab",
+                "time": "15:00",
+                "link": ""
+            },
+            {
+                "name": "Tutorial NMPT",
+                "time": "16:00",
+                "link": ""
+            }
+        ],
+        [
+            {
+                "day": "Tuesday",
+                "lec": "5"
+            },
+            {
+                "name": "OOP",
+                "time": "9:00",
+                "link": ""
+            },
+            {
+                "name": "CSO",
+                "time": "11:00",
+                "link": ""
+            },
+            {
+                "name": "DSA",
+                "time": "14:00",
+                "link": ""
+            },
+            {
+                "name": "DSA Lab",
+                "time": "15:00",
+                "link": ""
+            },
+            {
+                "name": "OOP Lab",
+                "time": "16:00",
+                "link": ""
+            }
+        ],
+        [
+            {
+                "day": "Wednesday",
+                "lec": "3"
+            },
+            {
+                "name": "OOP",
+                "time": "9:00",
+                "link": ""
+            },
+            {
+                "name": "NMPT",
+                "time": "12:00",
+                "link": ""
+            },
+            {
+                "name": "MPI",
+                "time": "14:00",
+                "link": ""
+            }
+        ],
+        [
+            {
+                "day": "Thursday",
+                "lec": "3"
+            },
+            {
+                "name": "OOP",
+                "time": "9:00",
+                "link": ""
+            },
+            {
+                "name": "DSA",
+                "time": "12:00",
+                "link": ""
+            },
+            {
+                "name": "ITW-1",
+                "time": "16:00",
+                "link": ""
+            }
+        ],
+        [
+            {
+                "day": "Friday",
+                "lec": "5"
+            },
+            {
+                "name": "CSO",
+                "time": "9:00",
+                "link": ""
+            },
+            {
+                "name": "MPI",
+                "time": "11:00",
+                "link": ""
+            },
+            {
+                "name": "OOP",
+                "time": "12:00",
+                "link": ""
+            },
+            {
+                "name": "NMPT",
+                "time": "14:00",
+                "link": ""
+            },
+            {
+                "name": "ITW-1",
+                "time": "16:00",
+                "link": ""
+            }
+        ],
+        [
+            {
+                "day": "Saturday",
+                "lec": "0"
+            }
+        ]
+    ]
+}
