@@ -9,28 +9,176 @@
     <!--fonts-->
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
 
     <!--css-->
-    <link ref="stylesheet" href="popup.css">
+    <style>
+    html, body {
+        font-family: 'Roboto';
+        font-size: 14;
+        margin: 0;
+        min-width: 180px;
+        padding: 0;
+        width: 400px;
+        background-color: #FDFDFD;
+    }
+
+    h1 {
+        font-family: 'Roboto Slab';
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #061146;
+    }
+
+    h2 {
+        font-family: 'Roboto Slab';
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    img {
+        width: 30px;
+    }
+
+    a:link, a:visited{
+        color: #000;
+        outline: 0;
+        text-decoration: none;   
+    }
+
+    .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #061146;
+    }
+
+    .modal-body {
+        padding: 10px;
+    }
+
+    #time-table {
+        font-family: "Roboto";
+        margin: 25px 0;
+        border-collapse: collapse;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        width: 100%;
+    }
+
+    #time-table thead tr {
+        background-color: #061146;
+        color: #FDFDFD;
+    }
+
+    #time-table td {
+        padding: 12px 15px;
+    }
+
+    #time-table tbody tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+    #time-table tbody tr:nth-child(even){
+        background-color: #FDFDFD;
+    }
+
+    #time-table tbody tr:hover {
+        background-color: #ddd;
+    }
+
+    #time-table tbody tr:last-of-type {
+        border-bottom: 2px solid #061146;
+    }
+
+    .modal-footer {
+        border-top: 0.5px solid #061146;
+        height: 50px;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 16px;
+    }
+
+    .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+    }
+
+    .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+    }
+
+    .flex:hover{
+        opacity: 0.4;
+    }
+
+    .flex .fa {
+        font-size: 30px;
+        color: #061146;
+    }
+
+    </style>
 </head>
 <body>
 
     <div class="modal-header">
-
+        <h1 class="logo">
+            <img src="images/oasis_logo.svg" alt="oasis_logo" class="logo-icon"> 
+            Oasis
+        </h1>
     </div>
 
     <div class="modal-body">
+        <h2 id="day"></h2>
+        <table id="time-table">
+            <thead>
+                <tr>
+                    <td>
+                        Lecture
+                    </td>
+                    <td>
+                        Time
+                    </td>
+                    <td>
+                        Link
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
 
+            </tbody>
+        </table>
     </div>
 
     <div class="modal-footer">
-
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://github.com/deeppanchani" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://twitter.com/deeppanchani21" target="_blank">
+                    <i class="fa fa-twitter" ></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://twitter.com/deeppanchani21" target="_blank">
+                    <i class="fa fa-instagram" ></i>
+                </a>
+            </div>
     </div>
-    <!--js-->
-    <style type="text/javascript">
 
-    </style>
+    <script src="popup.js"></script>
 
 </body>
 </html>
