@@ -60,6 +60,8 @@ Download the extension from <a href="https://github.com/deeppanchani/deeppanchan
     <img src="extra/html.png" width="120px">
     <img src="extra/css.png" width="180px">
     <img src="extra/js.png" width="120px">
+    &nbsp;
+    &nbsp;
     <img src="extra/json.png" width="120px">
 </p>
 
