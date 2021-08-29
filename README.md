@@ -30,7 +30,7 @@ So I made a chome extension which will automatically show the time table of that
 
 ## 🤓 How to Download and Install
 
-Download the extension from <a href="https://github.com/deeppanchani/deeppanchani_extension/blob/main/deeppanchani%20links.zip" target="_blank">here</a>.
+Download the extension from <a href="https://github.com/deeppanchani/college_time_table-oasis/blob/main/college_time_table.zip" target="_blank">here</a>.
 
 ### Setps to Install
 
