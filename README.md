@@ -1,11 +1,15 @@
-# Project - deeppanchani links
-## Problem Statement
-I always find myself hunting down my social media profile links when I want to share them or when I want to fill some forms.
-## Solution
-To overcome the problem I initially thought to have a file containing all the links but it was still not efficient.
+# Project - college time table
+## 😵 Problem Statement
+In online mode of studies lecture links are like class rooms. Ofcourse in we wont forget way to our class room. But we cant even remember all the lecture links right.
 
-So I came up with an idea to make a chrome extension which has all the links in it.
-## Sneak Peek
+It is difficult to find the right lecture link at the right time.
+
+## 💡 Solution
+To overcome the problem I initially made a pdf of all the lecture links but it lacked the time table feature.
+
+So I made a chome extension which will automatically show the time table of that day and the lecture links.
+
+## 🧐 Sneak Peek
 
 <p align="center">
     <img src="extra/full.png"><br>
@@ -24,7 +28,7 @@ So I came up with an idea to make a chrome extension which has all the links in 
     Sunday View<br>
 </p>
 
-## How to Download and Install
+## 🤓 How to Download and Install
 
 Download the extension from <a href="https://github.com/deeppanchani/deeppanchani_extension/blob/main/deeppanchani%20links.zip" target="_blank">here</a>.
 
@@ -54,7 +58,7 @@ Download the extension from <a href="https://github.com/deeppanchani/deeppanchan
     <img src="extra/5.png">
 
 
-## Built With
+## 🧰 Built With
 
 <p align="center">
     <img src="extra/html.png" width="120px">
@@ -65,7 +69,7 @@ Download the extension from <a href="https://github.com/deeppanchani/deeppanchan
     <img src="extra/json.png" width="120px">
 </p>
 
-## About Me
+## 🙋‍♂️ About Me
 
 Hey I am Deep Panchani. Computer Science and Engineering student from Indian Institute of Information Technology, Nagpur. 
 
