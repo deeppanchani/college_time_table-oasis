@@ -9,8 +9,6 @@ So I came up with an idea to make a chrome extension which has all the links in 
 
 <p align="center">
     <img src="extra/full.png"><br>
-    Full View<br>
-    <img src="extra/monday  .png"><br>
     Monday View<br>
     <img src="extra/tuesday.png"><br>
     Tuesday View<br>
